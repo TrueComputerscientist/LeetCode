@@ -1,5 +1,4 @@
 import math
-nums = [1,2,3,4]
 def productExceptSelf( nums: list[int]) -> list[int]:
     result = []
     left = 1
@@ -14,4 +13,3 @@ def productExceptSelf( nums: list[int]) -> list[int]:
         right = right*nums[i]
     return result
 
-print(productExceptSelf(nums))
